@@ -19,3 +19,10 @@ let student =[
     }
 ]
 console.log(student[0].email)
+
+
+/*
+operation in array 
+*/ 
+let number= 123.4869
+console.log(number.toFixed(2));//==> 123.49 this wll fix the roundof figure.

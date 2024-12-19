@@ -1,66 +1,33 @@
-// let totalUnit=150;
-// let money=0;
-// if(totalUnit>30){
-//     money=money+10*(totalUnit-30)
-//     totalUnit=30
-// }
-// if(totalUnit>20){
-//     money=money+8*(totalUnit-20)
-//     totalUnit=20
-// }
-// if(totalUnit>50){
-//     money=money+5*(totalUnit-50)
-//     totalUnit=50
-// }
-// money=money+80
-// console.log("total money to paid for 150 unit is:",money);
+/**
+ ********* ELECTRICITY BILL CALCULATION*************
+ TOTAL UNIT consumed= 150;
+ for 0-50 unit = Rs 80
+ next 20 unit = Rs 5/unit
+ next 30 unit = Rs 8/unit
+ remaining = Rs 10/unit
 
-// let totalUnit=150;
-// let money = 0;
-// if(totalUnit>30){
-//     money+=10*(totalUnit-30)
-//     totalUnit=30
+ calculate total price for the 150 unit consumed for the costumer
+ */
 
-// }
-// if(totalUnit>20){
-//     money+=8*(totalUnit-20)
-//     totalUnit=20
-// }
-// if(totalUnit>50){
-//     money+=5*(totalUnit-50)
-//     totalUnit=50
-// }
-// money+=80
-// console.log("total money:"+money);
-let units = 150;
-let bill = 0;
+ let total_unit;
+ let total_price=0;
+let price;
+ if(total_unit=50){
 
-// Fixed charge for the first 50 units
-if (units > 0) {
-    bill += 80;
+    price=80
+    total_price+=price
+ }
+if(total_unit+=20){
+    price=20*5;
+    total_price+=price
 }
-
-// Charge for the next 20 units at NPR 5 per unit
-if (units > 50) {
-    if (units <= 70) {
-        bill += (units - 50) * 5;
-    } else {
-        bill += 20 * 5; // Full charge for the next 20 units
-    }
+if(total_unit+=30){
+    price=30*8;
+    total_price+=price
 }
-
-// Charge for the next 30 units at NPR 8 per unit
-if (units > 70) {
-    if (units <= 100) {
-        bill += (units - 70) * 8;
-    } else {
-        bill += 30 * 8; // Full charge for the next 30 units
-    }
+if (total_unit=150-total_unit) {
+    price=total_unit*10
+    total_price+=price
 }
+console.log(total_price);
 
-// Charge for any remaining units at NPR 10 per unit
-if (units > 100) {
-    bill += (units - 100) * 10;
-}
-
-console.log(`Total electricity bill for ${units} units is: Npr. ${bill}`);

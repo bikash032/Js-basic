@@ -1,0 +1,1 @@
+document.write("THIS IS NEW PAGE FOR THE JS FILE CONNECTION")

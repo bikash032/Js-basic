@@ -32,13 +32,16 @@ console.log(a); // ==> 10
  * 2. inside of the block scope value and the value will be set same outside of the block scope. 
  * 3. for declearing the name for the let we need to check the case sensetive 
  * 4. we can use console.log(let name) not inside the inverted name 
+ * 5. let is of block scope code as it will hold the decleared value inside the block and previously value will be same
  * var ===>
  * 1. As if the Var is decleared top and we used the block scope then the value will change thoug
  * 2. var doesnt matter about the block scope .
  * 3. if the var value is changed inside the block scope then the value will be changed outside of the block scope.
  * 4. var is hoisted to the top of the block scope but will be changed later.
+ * 5. var is of function scope.
 CONSTANT :
 1. we cannot change the value of the constant.
 2. we can declare the constant using let and const keyword.
 3. we cannot change the value anywhere but if we need to change the data type then we can do it.
+4. it is static value as if once decleadred cannot be changed.
 */

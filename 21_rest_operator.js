@@ -1,4 +1,4 @@
-/* what is object distractature function?
+/* what is object distractature function? 
 This function is used to abstract the value of array or object or json and that value directly assign to the variable. 
 for example 
 */

@@ -2,7 +2,7 @@ let array = [
     [
         "bikash\n",  // (1,0)
         "udayapur",// (1,1)                                 SINTEX OF CHECKING size OF ARRAY IS 
-        "NEPAL",   // (1,2)                    console.log(array(identfier).length)
+        "NEPAL",   // (1,2)                    console.log((identfier).length)
         97066907843,//(1,3)
         "bishokarma1996@gmail.com"// (1,4)
     ],
@@ -14,7 +14,7 @@ let array = [
         "sarlahi112@gmail.com"
     ]
 ]
- let size = array.length
+ let size = array.length// this will give the number of object or element inside of the array 
 console.log(size)
 
  let sample_array= [1,2,3,4,5,6,7,8,9,0]

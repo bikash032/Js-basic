@@ -1,3 +1,12 @@
+/*
+$$$$   Put object in the desired place we can follow the rules as below
+1. first find out the size of the array or the total number of the position(size=array.length )
+2. now push this in the array
+students_information[size]=student_1
+
+
+*/
+
 let student_information = [];
 let students = [
     [1, 2, 3, 4, 5, 6, 7],
@@ -30,20 +39,22 @@ let student_3 = {
     contact: 908765432,
     isEmployed: true
 }
-student_information.push(students, undefined, student_detail_1, student_1, undefined)// this undefined value is in (1,1) position of
-console.log(student_information);                                                // so later we can push in that position 
-console.log("______________")
-console.log('') // is to create gap between                                                   //  another array or object
+student_information.push(student_3,student_1 )
+size=student_information.length
+// console.log(student_information);
+student_information[size]=student_detail_1
+// console.log(student_information);
 
-student_information[3];
+/*this will insert data in the array at the last position but we can put inside as desigered position by making the empty slot
+for example if we inserted manually at the 4 index of the array then 3 index will be empty and later we can assign there the object
+*/
+let my_detail={
+    name:"Prakash Mahat",
+    address: "Baglung",
+    phone: 9784514211
+}
+
+student_information[4]=my_detail
 console.log(student_information);
-console.log("-------------")
-student_information.splice(1, 1, student_3);// first delate the item of position (1,1)and add that place student_3
-console.log(student_information); // at desirable position 
-console.log(student_information);
-console.log("*********************")
-let student_4=[
-    1,2,3,4,5,6,7,8,9,10
-]
-student_information.splice(1,4,student_4);
-console.log(student_information);
+
+

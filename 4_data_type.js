@@ -1,4 +1,6 @@
 /*TYPES OF DATA IN JS 
+there are two types of data types 1. premitive and derived. AS if the data type is already decleared and cannot change and derived is
+changing as per our desire.
 1. STRING 
 If any things that are defined inside of the " ", " ",` `
 2. NUMBER 
