@@ -1,3 +1,7 @@
+
+
+
+
 let products=[
     {
         name :"iphone",
@@ -19,8 +23,8 @@ console.log(products);// this will give all the object value including the empty
      let prod=products[i] /// this is the key syntex for === for in loop
      console.log(prod);//==>> from this we can starting the loop 
 
-//     if we print only "i" then it will gives the total number of index after elemenating empty 
-//     and undefined index 
+    // if we print only "i" then it will gives the total number of index after elemenating empty 
+    // and undefined index 
 }
 /* this syntex will give all the keys and values inside the objects of array after elemenating 
  all the undefined or empty index values

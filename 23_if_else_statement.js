@@ -9,19 +9,87 @@
  */
 
 
-let science = 84;
-let math = 98;
-let social = 30;
-let nepali = 70;
-let total_percentage = ((science + math + social + nepali) / 400) * 100;
-if (total_percentage > 70) {
-    if (math > 50 && social > 50 && science > 50 && nepali > 50)
-        console.log("you are pass ");
+/*
+CREATE TWO VARIABLES 
+Marks obtained and percentage 
+as total marks is 500
+>=80 distinction
+>=60 first division
+>=45 second division
+>=35 first division
+<35 fail
+*/
+let marks_obtained = 450;
+let percentage = (marks_obtained / 500) * 100;
+if(percentage>=80){
+    console.log("Distinction");
+}else{
+    if(percentage>=60){
+        console.log("first division");
+        
+    }
+    else{
+        if(percentage>=45){
+            console.log("second division");
+            
+        }else{
+            if(percentage>=35){
+            console.log("third division");
+            
+            }else{
+                if(percentage<35){
+                    console.log("you are fail");
+                    
+                }
+            }
+
+        }
+    }
+}
+
+
+// logical use of if else statement
+
+let products ={
+    name:"iphone",
+    price: 123000,
+    discount: null,
 
 }
-else {
-    console.log("you are fail");
+ let after_discount =products.price-products.discount*products.price/100
+if(products.discount){
+  
 
+    console.log("actual_price:",after_discount);
+  
 }
+console.log("original price:",products.price);
 
+// else{
+//     console.log("product_price:",products.after_discount= products.price)// this will execute because if we never give discount then 
+//                                                                        //the price must be original price 
+// }
+/* if we want to execute only else then we can define on if place about the condition of else
+for eg !(product.discount) the print the original price 
 
+we can make plenty of if else statement inside either if or else 
+
+*/
+if(expression){
+    if(expression1){
+        if(expression2){
+            if(expression3){
+                if(expression4){
+                    if(expression5){
+                        if(expression6){
+                            if(expression7){
+                                //THIS IS CALLED NESTING BUT THIS MAKES PROGRAM SLOW 
+                                //EXAMPLE GIVEN BY SANDESH TEACHER ABOUT E-KANTIPUR
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

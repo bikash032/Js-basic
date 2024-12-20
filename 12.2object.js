@@ -42,7 +42,7 @@ console.log(product_1);
 // now if we need to delete any data from the object then we can use the delete keyword
 delete product_1.brand
 
-console.log(product_1);
+// console.log(product_1);\
 
 
 // if we need to take out only key from the object then we can use

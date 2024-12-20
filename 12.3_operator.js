@@ -59,7 +59,7 @@ console.log(name + " " + surname); // Bikash Bishokarma
 console.log(name+=" "+surname);// both of them are same process of the concatination
  // and this logic goes for all of the assignment operator like -=, /=, *= etc.
 
-         //assignment operator
+         //COMPARISION operator
 let x=10;// number 
 let y="10";// string data type
 // for this contex we can say the value are same as 10 but data types are not same one is number and another is string 

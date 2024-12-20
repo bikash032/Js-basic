@@ -34,7 +34,7 @@ let clothes=[
         brand : "Zara",
         price:3000,
         sale:10 // so this is the case that we cannot implement the loop logic if therer is 1 
-        // undefined 
+        //                                                                                     undefined 
     },
     {
         brand : "Nike",

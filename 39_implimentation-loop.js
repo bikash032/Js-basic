@@ -1,5 +1,9 @@
-/*
-calculate the after_discount of each product and assaign theem in each products. of array inside object
+
+
+
+
+/*********************** IMPLEMENTATION OF THE LOOP ***************************8
+calculate the after_discount of each product and assaign them in each products of array inside object
 */
 
 let product=[
@@ -32,3 +36,8 @@ console.log(product);
 
 
 
+
+
+
+
+    

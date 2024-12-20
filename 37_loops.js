@@ -21,9 +21,9 @@ console.log(10);
 // // this will print all them but this have the same pattern and same block of code 
 //so now we can implement the loop concept to use the code for them;
 
-// // // for(let i = 5;i<=10;i++){
-// // //     console.log("the l",i);
-// // }
+for(let i = 5;i<=10;i++){
+    console.log("the l",i);
+}
 // // before that let clearfy the syntex for implementing the loop 
 // /**
  
@@ -68,19 +68,19 @@ if there is true or all the condition is ok then we can enter the hall but exit 
      1. for loop 
 
 */
-let im =1;
-for(; ; ){
-    console.log(i);
-    if(i===10){
+let j =1;
+for(;;){
+    if(j<10){
         break;}
     }
-    i++;
+    j++;
+    console.log(j);
 /*
      2. while loop
 it is also works as like the for loop but its syntex is diffrent 
 */
 let k =10;
-while(k<=10)
+while(k<=20)
 {
     console.log(k);
     k++;
