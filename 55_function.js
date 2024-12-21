@@ -243,3 +243,26 @@ console.log(div(20,10));
     
 }
 div(n/o)
+
+
+
+
+const my_name=(t,u)=>{
+ v=(t+u)
+    return (v)
+}
+let t=100;
+let u=200;
+var v;
+let new_name=my_name()
+console.log(new_name);
+
+
+
+
+const anything=(a,b,c,d,e)=>{
+    let f=(a+b+c+d+e)
+    return f
+}
+let accept=anything(10,20)
+console.log(accept);

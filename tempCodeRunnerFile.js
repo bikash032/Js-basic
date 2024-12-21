@@ -1,4 +1,12 @@
-    for( i=0;i<item.length;i++){
-    item[i].after_discounted=item[i].price-(item[i].price*item[i].discount)/100
+const fun=()=>{
+	const fun1= ()=>{
+  console.log("hello fun 1")
+     const fun2= ()=>{
+      console.log("hello fun 2")
+     }
+     return fun2()
     }
-    console.log(item);
+      
+      return  fun1()
+}
+fun()

@@ -1,77 +1,37 @@
-let products = {
-    product1: {
-        name: "samsung",
-        price: 1000,
-        discount: 10
-    },
-    product2:{
-        name: "xiaomi",
-        price: 2000,
-        discount: 10
-    },
-    product3: {
-        name: "iphone",
-        price: 3000,
-        discount: 10
-    },
-
+let product = [
+  (product1 = {
+    Name: "Apple",
+    price: 250,
+    discount: 10,
+  }),
+  (product2 = {
+    Name: "Orange",
+    price: 150,
+    discount: 20,
+  }),
+  (product1 = {
+    Name: "Mango",
+    price: 350,
+    discount: 10,
+  }),
+  (product1 = {
+    Name: "Guava",
+    price: 250,
+    discount: 15,
+  }),
+];
+let new_product=Object.values(product)
+console.log(new_product);
+let htmlTable="";
+let j=1;
+let after_discount;
+for(let i in new_product){
+    let prod=new_product[i]
+    prod.after_discount=prod.price-(prod.price*prod.discount)/100
+    htmlTable+= `<tbody><td>${j++}</td>
+    <td>${prod.Name}</td>
+    <td>${prod.price}</td>
+    <td>${prod.discount}</td>
+    <td>${prod.after_discount}</td></tr>`
 }
-let product5 = {
-    name: "xperia",
-    price: 4000,
-    discount: 20
-}
-
-let product4 = {
-    name: "xenon",
-    price: 3500,
-    discount:15
-}
-products.product5 = product5
-products.product4=product4
-products={
-   product1:products.product1,
-   product2:products.product2,
-   product3:products.product3,
-   product4:products.product4,
-   product5:products.product5,
-   
-}
-// let new_arrivals=[]
-// new_arrivals.product5=product5
-// products.new_arrivals.push(product5)
-
-let arr = Object.values(products)
-
-// console.log('sgffs',arr);
-let after_discount
-let HtmlTable="";
-let j = 1;
-for(let i in arr){
-let brand = arr[i]
-
-    brand.after_discount=brand.price-(brand.price*brand.discount)/100
-    HtmlTable+=`<tr>
-    <td>${j++}</td>
-    <td>${brand.name}</td>
-    <td>Npr. ${brand.price}</td>
-    <td>${brand.discount}</td>
-    <td>Npr. ${brand.after_discount}</td>
-    <tr>`
-}
-
-document.getElementById("Tablebody").innerHTML=HtmlTable
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+document.getElementById("tbody").innerHTML=htmlTable;

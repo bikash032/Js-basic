@@ -43,14 +43,22 @@ update of the operationg value as i++ will gies the value each time adding 1;
 so this loop will run until the increasing value of i and which makes true the value while checking
 the condition.
 */
-for (let j = 1; j <= 10; j++) {// this line will hold as per there mentioned that until when loop
+for (let j = 1; j <=30; j++) {// this line will hold as per there mentioned that until when loop
                               // from outer loop can controlled i.e 1==> 10 times
     let html = "";// this is just the starting of the iteration which value is empty every time 
-    for (k = 1; k <= j; k++) { // THIS line will run while checking until the limit of i value generation
-        html += k + " ";// this will concatinate the value of first loop and second value of second loop 
+    for (k = 1; k<= j; k++) { // THIS line will run while checking until the limit of i value generation
+        html += k + "  ";// this will concatinate the value of first loop and second value of second loop 
 
     }
     console.log(html); // this will print as long as the program terminate 
 }
 
 // 
+let https="";
+for (let i=1;i<=10;i++){
+    https+=i+"    ";
+    for(let j=1;j<=i;j++){
+}
+console.log(https);
+
+}

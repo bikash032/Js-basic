@@ -12,6 +12,20 @@ function callone() {
   return calltwo// this is the syntex that the first function need to hold the return value 
 }
 
-let calltwo =callone()
+callone()
 calltwo()
 // this type of the function need to call as to maintain the relation between first function and the second function
+
+
+const fun=()=>{
+	const fun1= ()=>{
+  console.log("hello fun 1")
+     const fun2= ()=>{
+      console.log("hello fun 2")
+     }
+     return fun2()
+    }
+      
+      return  fun1()
+}
+fun()

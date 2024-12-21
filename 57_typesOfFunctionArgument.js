@@ -1,6 +1,7 @@
 
 function bikash(a,b,c,d) {
     let result=a+b+c+d;
+    return result
 
 }
 let a=10;
