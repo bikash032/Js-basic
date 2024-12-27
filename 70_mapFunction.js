@@ -1,8 +1,9 @@
 // what is map function?
-// is  mainly use to iteratation of the value of the array object
+// is  mainly use to iteratation of the value of the array for the key of the object. 
 /*when ever if we want to use the loop inside every element of the array then we can use the function that called as the map function
-the map function will take one paramerter that is called as the call back functio lets work with example*/
-
+the map function will take one paramerter that is called as the call back function.
+ lets work with example*/
+// the argumment for the using of the map function will be taking always of the call back of the funciton 
 // syntex are ==>> if there is the name of array==> users and hold multiple of the  element then we can run loop for every element of
 // array as
 let users=[
@@ -38,4 +39,12 @@ defination part of the map function in the .*/
 //     console.log();
 //     ))// this syntex that are uses in the react only by using the small bracketf
 
-console.log(userCall);
+// console.log(userCal l); 
+
+
+const userAddress=users.map(userss=>(userss.address)   
+
+)
+console.log(userAddress);
+return 0;//this type of the return value we need to be specify while we working with the react. as if we dont return the value then it 
+// give you the warning while execution of this code 

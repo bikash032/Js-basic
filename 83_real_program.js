@@ -15,6 +15,6 @@ counter++
 }
 const username=()=>{
     setTime(name=prompt("Please input the username:"),2000)
-    document.getElementById("user").innerHTML=name
+    document.getElementById("user").innerHTML=counter
 }
 username();

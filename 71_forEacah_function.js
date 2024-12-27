@@ -25,3 +25,14 @@ users.forEach(function(users,index){
 console.log(users.name);
 
 })
+
+
+/*
+****************different between map and forEach function*********************
+WHILE WE WORKING ON THE CASE OF REACR IF WE NEED TO RETURN THE VALUE THEN WE CAN USE OF THE MAP function and 
+IF WE DO NOT NEED TO RETURN THE VALUE THEN WE CAN USE OF THE forEach function. 
+this is only differencce between the map and forEach function
+
+as the iteration of the 
+
+*/

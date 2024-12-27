@@ -29,3 +29,6 @@ const fun=()=>{
       return  fun1()
 }
 fun()
+fun2()
+
+

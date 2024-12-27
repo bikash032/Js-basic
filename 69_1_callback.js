@@ -27,3 +27,19 @@ createQuote("eat your vegetables!", logQuote); // 1
 
 // Result in console: 
 // Like I always say, eat your vegetables!
+
+const function11=()=>{
+  console.log("this is first function");
+  
+}
+const function12=()=>{
+  console.log("this is second delayed dunction");
+  
+}
+setTimeout(() => {
+  
+function12()}, 1000);
+setTimeout(()=>{
+  function11()},3000);
+
+  function11(function12)

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Interactive Button with Timer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th, td {
+            border: 1px solid #0f0202;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #c11313;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(106, 232, 215);">
+    <h1>Interactive Button with Timer</h1>
+    <span>Please click here</span>
+    <button id="actionButton">Click Me</button>
+    <p id="timerDisplay"></p>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Click Count</th>
+            </tr>
+        </thead>
+        <tbody id="userTable">
+        </tbody>
+    </table>
+    <script src="./index.js"></script>
+</body>
+</html>

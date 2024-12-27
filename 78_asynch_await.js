@@ -55,3 +55,20 @@ await*/
     }
  }
   handlepromise()
+let promise15=async()=>{
+  let existss=false
+  if(existss){
+    return"i am ressolveddddd"
+  }throw "i am rejected"
+  
+}
+let handlenewpromise=async()=>{
+try{
+  let ended=await promise15()
+  console.log(ended);
+  
+}catch(err){
+console.log(err);
+}
+}
+handlenewpromise()
