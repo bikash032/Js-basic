@@ -69,7 +69,7 @@ now after i merge to my main branches and if there is no one pushes code for the
 
 but 
 
-if we want to pull the git reposatory code from git to the local remote branches then if there is same code or logic for the same of the code block
+if we want to pull the git reposatory code from git remote branch to the local  branches then if there is same code or logic for the same of the code block
 then it will give the conflict for the merzing of the code. 
 conflict for the merzaing of the coded
 
