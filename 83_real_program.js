@@ -18,3 +18,4 @@ const username=()=>{
     document.getElementById("user").innerHTML=name
 }
 username();
+console.log("bikash");
