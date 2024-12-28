@@ -18,3 +18,4 @@ const username=()=>{
     document.getElementById("user").innerHTML=counter
 }
 username();
+console.log("bikash");
