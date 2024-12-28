@@ -1,4 +1,4 @@
-/*
+
 ****************GIT INTRODUCTION************
 
 When we working on the company to make the flow of the working balanced and to share the block of the code within the team, we can use 
@@ -64,15 +64,36 @@ syntex======>>> git merge bikash  ===> for this the main branch(current branch=m
 of the bikash as the remote branch 
 
 now after i merge to my main branches and if there is no one pushes code for the main branch then i can simply 
+
+
+
 *********git push origin main********** 
-
-
 but 
 
 if we want to pull the git reposatory code from git remote branch to the local  branches then if there is same code or logic for the same of the code block
 then it will give the conflict for the merzing of the code. 
 conflict for the merzaing of the coded
+at first we need to resolve the conflict and the process area;
+===>>  git pull origin main
+and after this we need to solve that conflict as it is asking to do 
+===>> git config pull.rebase false 
+
+now after running of this code we are ready to pull the file from remote 
+==>> git pull origin main
+this will merge the file between the our local file and the remote file but still is not finished 
 
 
+after this also we need to make sure which of the code we going to take among the suggestion in the vs code 
+a. apply the current code 
+b. accept the incomming change 
+c. accept both code 
+d. compare the changes 
 
-*/
+now from here we need to accept the right code 
+afteer we done this one we need to follow more proceedure 
+===>> git add .
+===>> git commit -m "this is final conflict ressolved code"
+
+now there is finally merging of the code and also there will be success pull first and also the push of the code  
+
+
