@@ -20,3 +20,4 @@ let promiseHandle=async()=>
     }
 }
 promiseHandle()// VVIP this must be of the return for the awaited function. 
+console.log("this is testing of the conflict resolution");
