@@ -3,8 +3,10 @@ let name = null;
 let usertable=[];
 const populatedTable=()=>{
     let htmlTable="";
-usertable.map((item)=>{
+    let j=0;
+    usertable.map((item)=>{
     htmlTable+="<tr>"
+    htmlTable+="<td>"+(++j)+"</td>";
     htmlTable+="<td>"+item.name+"</td>";
     htmlTable+="<td>"+item.Count+"</td>";
     htmlTable+="</tr>"

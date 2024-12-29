@@ -20,18 +20,18 @@ let product = [
     discount: 15,
   }),
 ];
-let new_product=Object.values(product)
+let new_product = Object.values(product);
 console.log(new_product);
-let htmlTable="";
-let j=1;
+let htmlTable = "";
+let j = 1;
 let after_discount;
-for(let i in new_product){
-    let prod=new_product[i]
-    prod.after_discount=prod.price-(prod.price*prod.discount)/100
-    htmlTable+= `<tbody><td>${j++}</td>
+for (let i in new_product) {
+  let prod = new_product[i];
+  prod.after_discount = prod.price - (prod.price * prod.discount) / 100;
+  htmlTable += `<tbody><td>${j++}</td>
     <td>${prod.Name}</td>
     <td>${prod.price}</td>
     <td>${prod.discount}</td>
-    <td>${prod.after_discount}</td></tr>`
+    <td>${prod.after_discount}</td></tr>`;
 }
-document.getElementById("tbody").innerHTML=htmlTable;
+document.getElementById("tbody").innerHTML = htmlTable;

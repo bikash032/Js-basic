@@ -84,6 +84,26 @@ While we working on the industrial based approach to bring for the better result
                         OR MAY USE THE BRANCHING APPROACH.
 
  REAL EXAMPLE =>
+
+            1. DELETE ALL OF THE BRANCHES FIRST TO INITAILIAZE THE GIT FLOW
+  2. git flow init 
+  3. production branch ==> [bikash]
+  4. first development branch ==> [develop]
+  5. feature branch ===> [features]
+  6. relase stage/ branch ====> [release]
+  7. bugfix stage/branch  ===> [releseclose]
+  8. verson tag prefix===> [V]
+  9. hotfixes stage/ branch ===>[hotfixesstart]
+  10. hotfixes close / ====>[hotfixesClose]
  
-  1. DELETE ALL OF THE BRANCHES FIRST TO INITAILIAZE THE GIT FLOW
-  2. 
+ 11. check the branch name bifore where we need to work for
+       ====> git branch       (this will show the branch name of where we are going to work for)
+                        as if it shows that of the develop branch then it is ok as we are working from the develp branch as we dont touch for 
+                      the main or bikash or master branch
+        
+ 12. To make feature where we need to work then we use
+      =====>  git flow features start OOP1 (this will make the branch for the working of the features of the )
+ 13. AFTER FOLLOW ALL OF THE PROCESS TOLD BEFORE 
+     
+
+

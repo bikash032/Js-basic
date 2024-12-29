@@ -79,8 +79,8 @@ and after this we need to solve that conflict as it is asking to do
 ===>> git config pull.rebase false 
 
 now after running of this code we are ready to pull the file from remote 
-==>> git pull origin main
-this will merge the file between the our local file and the remote file but still is not finished 
+==>> git MERGE origin main
+this will merge the file between the our local  file and the remote file but still is not finished 
 
 
 after this also we need to make sure which of the code we going to take among the suggestion in the vs code 
