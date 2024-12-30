@@ -1,6 +1,2 @@
-class User{
-    constructor(){
-            console.log("i am constructer for class");
-            
-    }
-}
+const fruits=()=>"apple" 
+ console.log(fruits);

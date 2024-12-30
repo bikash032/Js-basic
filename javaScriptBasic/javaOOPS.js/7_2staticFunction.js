@@ -12,12 +12,24 @@ WHAT IS STATIC FUNCTION OF THE JAVASCRIPT?
     
     */
 
+class catagory{
+name;
+price;
+brand;
+constructor(_name,_price,_brand){
+    this.name=_name
+    this.price=_price
+    this.brand=_brand     // constructor function no need to return for the function
+}
+static getname(){
+    console.log("I am for the static function");
+    
+}
+}
+const objCatagoty= new catagory("Mobile",123000,"Samsung")
+console.log(objCatagoty);
+// objCatagoty.getname() // we cannot call static function by using of the object based because of the static behaviour it is not refer as function
+                          // as static function is not object based function as it is of the class based only. ca
 
-          class Catogory{
-            name;
-            price; 
-            product;
-            constructor(_name){
-                    this.name=_name
-                    
-          }
+                          catagory.getname();// so for this we need to call function based on the class based approach.
+
