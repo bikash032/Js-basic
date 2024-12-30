@@ -11,7 +11,7 @@ let a = [
         "sarlahi",
         "nepal",
         9842852699,
-        "sarlahi112@gmail.com"
+        "sarlahi112@gmail.com" 
     ]
 ]
 console.log(a[0,0][0,1])
